@@ -3,8 +3,9 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath 'com.kazurayam:visualtestinginks-downloader:0.0.0'
+        classpath 'com.kazurayam:PluginWasNotFoundInGradlePluginPortal:0.0.0'
     }
 }
 
-apply plugin: 'com.github.kazurayam.visualtestinginks-downloader'
+apply plugin: 'com.github.kazurayam.PluginWasNotFoundInGradlePluginPortal'
+apply plugin: 'de.undercouch.download'
